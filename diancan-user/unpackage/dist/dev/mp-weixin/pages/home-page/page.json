@@ -1,0 +1,9 @@
+{
+  "navigationBarBackgroundColor": "#f7d45f",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "cart": "/pages/home-page/components/shopping-cart",
+    "details": "/pages/home-page/components/goods-details",
+    "home": "/pages/skeleton-view/home"
+  }
+}

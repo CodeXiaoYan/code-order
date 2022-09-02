@@ -1,0 +1,113 @@
+/* 商品选择公用样式 */
+.classif-goods {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 20rpx;
+	height: 150rpx;
+	font-size: 30rpx;
+	margin-bottom: 45rpx;
+}
+
+.goods-image image {
+	display: block;
+	width: 150rpx;
+	height: 150rpx;
+	border-radius: 10rpx;
+}
+
+.goods-Price {
+	flex: 1;
+	position: relative;
+	padding: 0 20rpx;
+}
+
+.goods-Price text {
+	display: block;
+}
+
+.goods-name {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	top: 0;
+}
+
+.Bold {
+	font-weight: bold;
+}
+
+.over-name {
+	overflow: hidden !important;
+	text-overflow: ellipsis !important;
+	display: -webkit-box !important;
+	-webkit-box-orient: vertical !important;
+	-webkit-line-clamp: 1 !important;
+	margin-bottom: 9rpx;
+}
+
+.Thinning {
+	font-size: 25rpx;
+	color: #cccccc;
+}
+
+.unit-price {
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	align-items: baseline;
+}
+
+.Symbol {
+	font-size: 20rpx;
+}
+
+.quantity image {
+	width: 50rpx;
+	height: 50rpx;
+}
+
+.quantity view {
+	width: 50rpx;
+	height: 50rpx;
+	text-align: center;
+	line-height: 50rpx;
+}
+
+.quantity {
+	display: flex;
+	align-items: center;
+	align-self: flex-end;
+	width: 200rpx;
+	justify-content: space-between;
+}
+
+/* 规格 */
+.specs-view {
+	height: 50rpx;
+	width: 100rpx !important;
+	border-radius: 50rpx;
+	font-size: 25rpx;
+	justify-content: center !important;
+	position: relative;
+	background: linear-gradient(to right, #f8da81, #f8d771, #f7d362, #f6cb4a);
+}
+
+.specs-view text:nth-child(2) {
+	position: absolute;
+	right: -10rpx;
+	top: -17rpx;
+	background-color: #eb5941;
+	border-radius: 50%;
+	font-size: 20rpx;
+	color: #FFFFFF;
+	width: 30rpx;
+	height: 30rpx;
+	text-align: center;
+	line-height: 30rpx;
+}
+
+/* 已售罄 */
+.specs-qing {
+	background: linear-gradient(to right, #ffb3b3, #ff9999, #ff8080, #ff6666) !important;
+	color: #FFFFFF !important;
+}

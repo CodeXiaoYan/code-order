@@ -1,0 +1,130 @@
+/* ----------------弹窗 */
+.details-back.data-v-600e5a46{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+.goods-details.data-v-600e5a46{
+	height: 850rpx;
+	background-color: #fefefe;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 120rpx;
+	border-top-left-radius: 20rpx;
+	border-top-right-radius: 20rpx;
+	overflow-y: auto;
+}
+.details-bottom.data-v-600e5a46{
+	bottom: 0 !important;
+}
+/* 单个商品的详情弹窗 */
+.goods-details.data-v-600e5a46{height: 900rpx;}
+.goods-image.data-v-600e5a46{
+	width: 100%;
+	height: 450rpx;
+	position: relative;
+}
+.goods-image image.data-v-600e5a46:nth-child(1){
+	display: block;
+	width: 100%;
+	height: 450rpx;
+	border-top-left-radius: 20rpx;
+	border-top-right-radius: 20rpx;
+}
+.goods-image image.data-v-600e5a46:nth-child(2){
+	display: block;
+	width: 50rpx;
+	height: 50rpx;
+	position: absolute;
+	top: 20rpx;
+	right: 20rpx;
+	border-radius: 50%;
+}
+.details-padd.data-v-600e5a46{
+	padding: 20rpx 20rpx 0 20rpx;
+}
+.describe.data-v-600e5a46{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.details-quantity image.data-v-600e5a46{
+	width: 50rpx;
+	height: 50rpx;
+	display: block;
+}
+.details-quantity.data-v-600e5a46{
+	display: flex;
+	align-items: center;
+	width: 200rpx;
+	justify-content: space-between;
+}
+.details-name.data-v-600e5a46{
+	font-size: 35rpx;
+	font-weight: bold;
+}
+.details-Thinning.data-v-600e5a46{
+	font-size: 30rpx;
+	color: #a4a4a4;
+	padding: 20rpx 0;
+}
+.details-unit-price.data-v-600e5a46{
+	font-size: 30rpx;
+	color: #ec702d;
+	display: flex;
+	align-items: baseline;
+}
+.details-unit-price text.data-v-600e5a46:nth-child(2){
+	font-size: 35rpx;
+}
+.details-unit-price text.data-v-600e5a46:nth-child(3){
+	color: #999999 !important;
+}
+/* 规格 */
+.specs-goods.data-v-600e5a46{
+	font-size: 30rpx;
+}
+.specs-goods-text.data-v-600e5a46{
+	font-weight: bold;
+}
+.specs-goods-flex.data-v-600e5a46{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+.specs-goods-flex text.data-v-600e5a46{
+	background: #f7f8fa;
+	border-radius: 6rpx;
+	font-size: 27rpx;
+	color: #292c33;
+	text-align: center;
+	padding: 10rpx 50rpx;
+	margin: 20rpx 20rpx 0 0;
+}
+.attr-back.data-v-600e5a46{
+	background-color: #f8da81 !important;
+}
+/* 阻止点击 */
+.prevent_style.data-v-600e5a46{
+	text-decoration: line-through;
+	pointer-events: none;
+	opacity: 0.45;
+	color: #000;
+}
+/* 已售罄 */
+.specs-qing.data-v-600e5a46{
+	height: 50rpx;
+	width: 100rpx !important;
+	border-radius: 50rpx;
+	font-size: 25rpx;
+	text-align: center;
+	line-height: 50rpx;
+	background: linear-gradient(to right,#ffb3b3,#ff9999,#ff8080,#ff6666) !important;
+	color: #FFFFFF !important;
+}
+

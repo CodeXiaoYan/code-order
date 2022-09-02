@@ -1,0 +1,27 @@
+/* 底部淡入 */
+.coup-anim {
+	animation: fadeIn 0.4s .1s ease both;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+		transform: translateY(400upx)
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0)
+	}
+}
+
+.skeleton-index{
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #FFFFFF;
+z-index: 99;
+overflow: hidden;
+}

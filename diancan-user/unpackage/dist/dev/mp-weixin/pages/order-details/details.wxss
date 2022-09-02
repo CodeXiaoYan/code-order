@@ -1,0 +1,128 @@
+
+page{background-color: #f4f4f4;}
+.details-view{position: relative;}
+.order-top{
+	background:linear-gradient(to bottom, #f7d45f,#f7d562,#f8d561,#f9db76, #f9de80);
+	height: 300rpx;
+}
+.order-remind view:nth-child(1){
+	font-size: 35rpx;
+	font-weight: bold;
+	padding-bottom: 20rpx;
+}
+.order-remind{
+	height: 200rpx;
+	padding: 50rpx 0 0 50rpx;
+}
+.food-list{
+	position: absolute;
+	top: 200rpx;
+	left: 20rpx;
+	right: 20rpx;
+}
+.foot-back{
+	background-color: #fefefe;
+	border-radius: 10rpx;
+	padding: 0 20rpx;
+	margin-bottom: 30rpx;
+}
+.foot-til{
+	height: 100rpx;
+	color: #999999;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.foot-deta image{
+	display: block;
+	width: 130rpx;
+	height: 130rpx;
+	border-radius: 10rpx;
+}
+.foot-deta{
+	display: flex;
+	justify-content: space-between;
+	height: 130rpx;
+	margin: 40rpx 0;
+}
+.foot-name{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0 20rpx;
+	font-size: 30rpx;
+}
+.foot-name text:nth-child(1){font-size: 31rpx !important;font-weight: bold;}
+.foot-name text:nth-child(2){font-size: 22rpx !important; color: #999999;}
+.foot-name text:nth-child(3){color: #666666;}
+.foot-total{font-weight: bold;}
+/* 展开更多 */
+.expand-more image{
+	width: 25rpx;
+	height: 25rpx;
+	display: block;
+	padding-left: 10rpx;
+}
+.expand-more{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #999999;
+	font-size: 25rpx;
+	padding: 30rpx 0;
+	border-bottom: 1rpx solid #f1f1f2;
+}
+/* 总计 */
+.total-price{
+	display: flex;
+	align-items: center;
+	color: #333333;
+	padding-left: 40rpx;
+}
+.total-price text:nth-child(2){
+	font-size: 35rpx;
+	font-weight: bold;
+	padding-left: 30rpx;
+}
+.total-view{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 30rpx 0;
+}
+.total-view view:nth-child(1){
+	color: #999999;
+}
+/* 订单号 */
+.order-number text{
+	display: block;
+	padding: 15rpx 0;
+	font-size: 28rpx;
+	color: #999999;
+}
+/* 加菜 */
+.add-a-dish{
+	background-color: #fefefe;
+	height: 120rpx;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	box-shadow: 0rpx -1.9rpx 1rpx 1rpx #f9f9f9;
+	padding: 0 20rpx;
+	z-index: 9;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.add-a-dish view{
+	background:linear-gradient(to right,#f8da81,#f8d771,#f7d362,#f6cb4a);
+	width: 200rpx;
+	height: 75rpx;
+	line-height: 75rpx;
+	text-align: center;
+	border-radius: 50rpx;
+	font-weight: bold;
+}
+

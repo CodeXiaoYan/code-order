@@ -1,0 +1,23 @@
+/* ----------------弹窗 */
+.details-back{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+.goods-details{
+	height: 850rpx;
+	background-color: #fefefe;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 120rpx;
+	border-top-left-radius: 20rpx;
+	border-top-right-radius: 20rpx;
+	overflow-y: auto;
+}
+.details-bottom{
+	bottom: 0 !important;
+}

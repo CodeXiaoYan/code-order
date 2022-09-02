@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "搜索菜品",
+  "navigationBarBackgroundColor": "#fefefe",
+  "usingComponents": {
+    "details": "/pages/search/components/goods-details"
+  }
+}

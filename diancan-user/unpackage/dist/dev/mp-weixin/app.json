@@ -1,0 +1,19 @@
+{
+    "pages": [
+        "pages/saoma/saoma",
+        "pages/index/index",
+        "pages/home-page/page",
+        "pages/search/search",
+        "pages/order-details/details",
+        "pages/my-order/my-order"
+    ],
+    "subPackages": [],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    },
+    "usingComponents": {},
+    "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,33 @@
+
+page{background-color: #f4f4f4;}
+.my-order-view{
+	background-color: #FFFFFF;
+	border-radius: 10rpx;
+	margin: 20rpx;
+	padding: 20rpx;
+}
+.my-order-name{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 20rpx;
+	border-bottom: 1rpx solid #e5e5e5;
+}
+.my-order-name text:nth-child(1){
+	font-weight: bold;
+}
+.my-order-number{
+	padding-top: 20rpx;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: #999999;
+}
+.my-order-time{
+	padding-top: 20rpx;
+}
+.my-order-price{
+	color: #000000 !important;
+	font-weight: bold;
+}
+
