@@ -1,0 +1,27 @@
+{
+  "name": "diancan-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/multer": "^3.0.0",
+    "axios": "^0.21.3",
+    "basic-auth": "^2.0.1",
+    "cos-nodejs-sdk-v5": "^2.10.0",
+    "e-commerce_price": "^1.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^10.1.1",
+    "koa2-cors": "^2.0.6",
+    "moment": "^2.29.1",
+    "multer": "^1.4.3",
+    "nodemon": "^2.0.12"
+  }
+}
