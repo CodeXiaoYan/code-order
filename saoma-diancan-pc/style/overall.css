@@ -1,0 +1,21 @@
+/* 上传页面 */
+.content-view-ten{
+margin-top: 30px;
+background-color: #FFFFFF;
+padding: 10px;
+}
+.image-view-title{
+max-width: 800px;
+margin: 0 auto 30px auto;
+}
+.image-button{
+text-align: center;
+margin: 120px 0;
+}
+.image-list{margin-bottom: 20px;}
+/* 富文本 */
+.quill-view{
+height: 800px;
+box-shadow: 0 1px 4px 1px rgba(0,0,0,0.05);
+background: #ffffff;
+}

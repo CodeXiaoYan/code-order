@@ -1,0 +1,48 @@
+
+/* 横幅展示：标题，图片，操作 */
+.heading{font-size: 20px;
+font-weight: bold;
+}
+.content-view{
+margin-top: 30px;
+}
+.button-view{display: flex;
+justify-content: flex-end;
+margin-bottom: 30px;
+}
+.tab-list{
+border-top: 1px solid #eee;
+border-bottom: 1px solid #eee;
+font-size: 15px;
+color: #999;
+background: #FFFFFF;
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.tab-list span{width: 250px; text-align: center;}
+/* 表格 */
+.tab-table{background-color: #FFFFFF;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px 0;
+border-bottom: 1px solid #eee;
+}
+.tab-table div{width: 250px; text-align: center;}
+.elimg{
+width: 40px !important;
+height: 40px;
+border-radius: 5px;
+margin: 0 auto;
+}
+.hiddens{
+overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box !important;
+-webkit-line-clamp: 1;
+/* autoprefixer: ignore next */
+-webkit-box-orient: vertical;
+line-height: 1.5;
+}

@@ -1,0 +1,245 @@
+/* 查询 */
+.quotation-query {
+	display: flex;
+	align-items: center;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+.quotation-query div:nth-child(1) {
+	margin-right: 10px;
+}
+
+.query-view {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+	flex-wrap: wrap;
+}
+
+.tab-table-quo {
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 0;
+	border-bottom: 1px solid #eee;
+}
+
+.tab-table-quo div {
+	width: 250px;
+	text-align: center;
+	line-height: 1.5;
+}
+
+.state-view {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.state-view-tetx {
+	color: #409EFF;
+	cursor: pointer;
+}
+
+.remarks-text {
+	display: flex;
+	justify-content: center;
+}
+
+.remarks-text p {
+	cursor: pointer;
+	color: #409EFF;
+}
+
+.el-textarea>>>.el-textarea__inner {
+	border: 0 !important;
+}
+
+/* 分页 */
+.el-pagination {
+	text-align: center;
+	margin: 30px 0;
+}
+
+/* 遮罩层 */
+.popup-view {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 50;
+}
+
+/* 状态弹窗 */
+.popup-content {
+	width: 300px;
+	height: 250px;
+	background-color: #FFFFFF;
+	border-radius: 4px;
+	border: 1px solid #ebeef5;
+	font-size: 18px;
+	box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .1);
+	z-index: 70;
+	position: relative;
+}
+
+.popup-content-name {
+	text-align: center;
+	color: #303133;
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+.popup-content-select {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.popup-content-button {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+}
+
+/* 短信验证码弹窗 */
+.code-view {
+	width: 500px;
+	height: 300px;
+	background-color: #FFFFFF;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	font-size: 18px;
+	z-index: 70;
+	overflow-y: auto;
+}
+
+.code-Template {
+	background-color: #F8F8F2;
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	padding: 7px 5px;
+	margin: 20px 10px;
+	font-size: 14px;
+}
+
+.code-Template div:nth-child(2) {
+	line-height: 1.5;
+}
+
+.code-content-button {
+	width: 500px;
+	height: 70px;
+	background-color: #FFFFFF;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.popup-height {
+	height: 370px;
+	box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .1);
+}
+
+/* 备注查看 */
+.remarks-view {
+	width: 400px !important;
+	height: 300px !important;
+}
+
+/* 营销短信 */
+.mess-wh{
+width: 400px !important;
+height: 500px !important;
+overflow-y: auto;
+}
+.mess-wh p{font-size: 15px; padding-bottom: 10px;}
+.input-mar{margin: 20px;}
+
+.sms-wh{
+width: 500px !important;
+height: 500px !important;
+}
+.sms-tip{padding: 0 9px;
+margin: 30px 0;
+}
+.sms-tip p{
+font-size: 12px;
+color: #18191e;
+opacity: 0.6;
+padding-bottom: 10px;
+line-height: 1.5;
+}
+.sms-input{padding: 0 9px;}
+.sms-handle{
+width: 300px !important;
+height: 300px !important;
+}
+
+/* loading加载无限滚动 */
+.trans{
+display: inline-block;
+width:70px;
+height:70px;
+border-radius: 50%;
+overflow: hidden;
+animation: rotate 3s linear infinite;
+}
+@keyframes rotate{from{transform: rotate(0deg)}
+to{transform: rotate(360deg)}
+}
+.sms-Center{
+height: 250px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0 10px;
+}
+.sms-Center p{
+line-height: normal;
+font-size: 15px;
+padding-top: 10px;
+}
+.sms-butt{
+text-align: center;
+margin-top: 10px;
+}
+.sms-err-img{
+display: inline-block;
+width:70px;
+height:70px;
+}
+
+/* 员工管理 */
+.input-staff{
+margin: 20px 10px;
+display: flex;
+}
+.input-staff p{padding: 0; line-height: 1.5;}
+.input-staff p:nth-child(1){
+width: 80px;
+}
+.input-staff p:nth-child(2){
+flex: 1;
+}
+.staff-head{
+margin: 15px 10px;
+}
+.staff-head img{width: 80px; height: 80px;
+border-radius: 6px;
+object-fit: cover;
+}

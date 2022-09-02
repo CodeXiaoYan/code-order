@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="user-scalable=0,width=device-width, initial-scale=1.0">
+	<script src="https://cdn.goeasy.io/goeasy-2.1.11.min.js"></script>
+    <title>扫码点餐商户端</title>
+	<style type="text/css">
+	  body{background-color: #f6f8f9;}
+	  ::-webkit-scrollbar {
+	  /*滚动条整体样式*/
+	  width : 6px;  /*高宽分别对应横竖滚动条的尺寸*/
+	  height: 1px;
+	  }
+	  ::-webkit-scrollbar-thumb {
+	  /*滚动条里面小方块*/
+	  border-radius: 6px;
+	  box-shadow   : inset 0 0 5px rgba(0, 0, 0, 0.2);
+	  background   : #25A4BB;
+	  }
+	  ::-webkit-scrollbar-track {
+	  /*滚动条里面轨道*/
+	  box-shadow   : inset 0 0 5px rgba(0, 0, 0, 0.2);
+	  border-radius: 3px;
+	  background   : #DCDFE6;
+	  }
+	  
+	</style>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but default doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+  <script type="text/javascript">
+  	history.pushState(null, null, document.URL);
+    console.log(document.URL)
+    window.addEventListener('popstate', ()=> {
+    history.pushState(null, null, document.URL);
+    });
+  </script>
+</html>

@@ -1,0 +1,55 @@
+/* 主页定位 */
+.ordering{
+position: absolute;
+top: 50px;
+left: 200px;
+right: 0;
+padding: 10px 0;
+margin: 0 auto;
+max-width: 1400px;
+}
+
+/* 没有数据的提示 */
+.nodatas{
+text-align: center;
+color: #999;
+padding-top: 200px;
+}
+
+/* 全局响应式*/
+/* 大于1700 */
+@media screen and (min-width: 1700px) {
+	.ordering{max-width: 1400px;}
+}
+/* 小于1700 */
+@media screen and (max-width: 1700px) {
+	.ordering{max-width: 1300px;}
+}
+
+@media screen and (max-width: 1650px) {
+	.ordering{max-width: 1200px;}
+}
+
+@media screen and (max-width: 1550px) {
+	.ordering{max-width: 1100px;}
+}
+
+@media screen and (max-width: 1430px) {
+	.ordering{max-width: 1000px;}
+}
+
+@media screen and (max-width: 1300px) {
+	.ordering{max-width: 900px;}
+}
+
+@media screen and (max-width: 1200px) {
+	.ordering{max-width: 850px;}
+}
+
+@media screen and (max-width: 1130px) {
+	.ordering{max-width: 800px;}
+}
+
+@media screen and (max-width: 1100px) {
+	.ordering{max-width: 750px;}
+}
