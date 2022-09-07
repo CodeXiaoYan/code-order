@@ -25,11 +25,11 @@ const oreder = require('./router/order/order.js')
 const code = require('./router/qr-code/code.js')
 
 // 配置路由接口
-router.use('/api',login)
-router.use('/api',uploadres)
-router.use('/api',dish)
-router.use('/api',oreder)
-router.use('/api',code)
+router.use('/api', login)
+router.use('/api', uploadres)
+router.use('/api', dish)
+router.use('/api', oreder)
+router.use('/api', code)
 
 
 /* 启动路由 */
